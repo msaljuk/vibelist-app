@@ -1,0 +1,75 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  flex: auto;
+  background: #ffffff;
+}
+
+.appIntro {
+  margin-top: 50%;
+  align-items: center;
+}
+
+.appName {
+  font-family: 'Montserrat-Black';
+  font-size: 48;
+  color: #5a57e8;
+}
+
+.appTagline {
+  font-family: 'Montserrat-Medium';
+  font-size: 16;
+  color: #373738;
+}
+
+.appTaglineEnd {
+  font-family: 'Montserrat-Bold';
+  font-size: 18;
+  color: #373738;
+}
+
+.divider {
+  height: 10;
+  width: 150;
+  border-bottom-width: 6;
+  border-bottom-color: #6ca7ff;
+  margin-bottom: 15;
+}
+
+.signupButton {
+  background-color: #6ca7ff;
+  border-radius: 10px;
+  padding: 7px;
+  width: 80%;
+  text-transform: 'lowercase';
+  align-items: center;
+}
+
+.signupContainer {
+  flex: 1;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.signupText {
+  font-family: 'Montserrat-Bold';
+  font-size: 14;
+  color: white;
+}
+
+.login {
+  font-family: 'Montserrat-Medium';
+  font-size: 12;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.terms {
+  font-family: 'Montserrat-Light';
+  font-size: 12;
+  margin-top: 20;
+  width: 70%;
+  text-align: center;
+}
