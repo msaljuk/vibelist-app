@@ -1,0 +1,33 @@
+.container {
+  flex: 1;
+  background-color: white;
+}
+
+.scrollView {
+  margin: 7% 7% 0 7%;
+}
+
+.headerContainer {
+  margin-bottom: 10;
+}
+
+.activitiesContainer {
+  padding: 0 2% 0 2%;
+}
+
+.activity {
+  margin-top: 7;
+  margin-bottom: 7;
+}
+
+.header {
+  font-family: 'Montserrat-ExtraBold';
+  font-size: 28;
+  color: #373738;
+}
+
+.vibe {
+  font-family: 'Montserrat-Black';
+  font-size: 72;
+  color: #5a57e8;
+}

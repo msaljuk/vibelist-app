@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 17px;
+  background-color: #ffffff;
+  padding: 5% 5% 5% 5%;
+}
+
+.iconContainer {
+  flex-basis: 20%;
+}
+
+.activityDetailsContainer {
+  flex-basis: 65%;
+  padding-left: 3%;
+  padding-right: 2%;
+}
+
+.pingsContainer {
+  flex-basis: 15%;
+  padding-top: 2%;
+  padding-left: 5%;
+}
+
+.activityName {
+  font-family: 'Montserrat-Regular';
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.activityType {
+  font-family: 'Montserrat-Bold';
+  font-size: 18px;
+}
+
+.activityIcon {
+  width: 50;
+  height: 50;
+}
+
+.pingIcon {
+  color: #ffc107;
+  right: 5;
+}
+
+.pingNumber {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 14px;
+}

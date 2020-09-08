@@ -5,8 +5,9 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import {UserContext} from './contexts/UserContext';
 
-import Home from './screens/Home/Home';
-import Entry from './screens/Entry/Entry';
+import Landing from './screens/Landing/Landing';
+import Login from './screens/Login/Login';
+import Signup from './screens/Signup/Signup';
 
 const Stack = createStackNavigator();
 
@@ -15,11 +16,17 @@ const App = () => {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator
-        initialRouteName={user.isLoggedIn ? 'Home' : 'Entry'}
-        screenOptions={{headerShown: false}}>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="Entry" component={Entry} />
+      <Stack.Navigator screenOptions={{headerShown: false}}>
+        {user.isLoggedIn ? (
+          <>
+            <Stack.Screen name="Landing" component={Landing} />
+          </>
+        ) : (
+          <>
+            <Stack.Screen name="Signup" component={Signup} />
+            <Stack.Screen name="Login" component={Login} />
+          </>
+        )}
       </Stack.Navigator>
     </NavigationContainer>
   );
